@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Custom logo font: Asimovian
+   Place your font file at: /landing-page/public/fonts/Asimovian.woff2
+   Then this @font-face will load it via /fonts/Asimovian.woff2 at runtime (Vite public root). */
+@font-face {
+  font-family: 'Asimovian';
+  src: url('/fonts/Asimovian.woff2') format('woff2');
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Utility class for the logo */
+.logo-font {
+  font-family: 'Asimovian', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
