@@ -1,7 +1,18 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asimovian&display=swap');
 
+@font-face {
+  font-family: 'Asimovian';
+  src: url('/fonts/Asimovian.woff2') format('woff2');
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
 
-#logo {
-    font-family: "Asimovian", sans-serif;
+.logo-font {
+  font-family: 'Asimovian', ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
